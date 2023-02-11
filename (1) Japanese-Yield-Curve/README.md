@@ -25,6 +25,7 @@
 ### Factors
 - Solid: Posterior mean
 - Region: 95% credible interval
+- Notable events are: QQE (2013 onwards), negative rate (2016 onwards), QQE (mid-2016 onwards), COVID-19 (2020 onwards), & inflation (mid-2021 onwards)
 ![factors](https://user-images.githubusercontent.com/46773720/218245784-31ce6fda-5ab7-466b-97bf-b01f8753e759.png)
 
 ### An Example of a Prior Sample
