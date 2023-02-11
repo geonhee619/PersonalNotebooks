@@ -19,5 +19,5 @@
 ### Factors
 ![factors](https://user-images.githubusercontent.com/46773720/218245784-31ce6fda-5ab7-466b-97bf-b01f8753e759.png)
 
-### Prior Samples
+### Prior Sample
 ![unconditional_viz](https://user-images.githubusercontent.com/46773720/218246286-5790b438-1c5b-475e-96a0-79be456914c8.gif)
