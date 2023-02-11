@@ -6,3 +6,6 @@
  - Data: End-of-month rate from 2007-Nov to 2023-Jan
 
 ![posterior_viz](https://user-images.githubusercontent.com/46773720/218244358-b4f642c8-5d7d-49b5-9d34-3985b38cd47a.gif)
+
+## (2) Modeling Japanese Inflation
+to be posted...
