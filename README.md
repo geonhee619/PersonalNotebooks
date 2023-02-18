@@ -7,5 +7,11 @@
 
 ![posterior_viz](https://user-images.githubusercontent.com/46773720/218244358-b4f642c8-5d7d-49b5-9d34-3985b38cd47a.gif)
 
-## (2) Modeling Japanese Inflation
+## (2) Hamiltonian Monte Carlo from scratch
+- Setting: Sampling from a 2D-Gaussian
+- Symplectic integration and HMC from scratch
+
+![leapfrog](https://user-images.githubusercontent.com/46773720/219874506-0ba6258b-0987-42aa-9313-a0e0c9b50c3f.gif)
+
+## (3) Modeling Japanese Inflation
 to be posted...
