@@ -1,5 +1,9 @@
 # Hamiltonian Monte Carlo from scratch
 
+## A glimpse of Leapfrog integration
+
+![dynamics3](https://user-images.githubusercontent.com/46773720/219874068-35248c64-14e9-4201-8073-a920cc56e396.png)
+
 ## Toy Problem: Drawing from a 2D-Gaussian
 - Suppose $\textbf{x} = (x_1,x_2)' \sim \pi(\textbf{x}) = \mathcal{N}(\textbf{x} \mid \textbf{m}, \textbf{S})$ where
 - $\textbf{m} = (5,5)',$
