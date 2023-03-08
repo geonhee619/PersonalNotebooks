@@ -13,7 +13,7 @@
 
 ![leapfrog](https://user-images.githubusercontent.com/46773720/219874506-0ba6258b-0987-42aa-9313-a0e0c9b50c3f.gif)
 
-## (3) Visualizing Black-Box Stochastic Variational Inference
+## (3) Visualizing Variational Inference
 - Setting: Univariate Bayesian Linear Regression with known variance
 - With Adam (Flux) and Automatic differentiation (ReverseDiff)
 
