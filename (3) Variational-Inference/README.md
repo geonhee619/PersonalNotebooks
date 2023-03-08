@@ -1,4 +1,4 @@
-# Visualizing Black-Box Stochastic Variational Inference in Julia
+# Visualizing Mean-field Variational Inference in Julia
 
 ## Result (in Linear Regression under known variance)
 
