@@ -13,13 +13,12 @@
 
 ![leapfrog](https://user-images.githubusercontent.com/46773720/219874506-0ba6258b-0987-42aa-9313-a0e0c9b50c3f.gif)
 
-## (3) Variational Inference on a toy problem
+## (3) Variational Inference from scratch
 - Setting: Univariate Bayesian Linear Regression with known variance
 - With Adam (Flux) and Automatic differentiation (ReverseDiff)
 
 ![VI](https://user-images.githubusercontent.com/46773720/223634760-fe691ec8-2b9c-4441-9193-f004b1de9638.gif)
-to be posted...
 
-## (4) Modeling Japanese Inflation
+## (4) Modeling Japanese Inflation with a dynamic factor-structure in volatility
 to be posted...
 
