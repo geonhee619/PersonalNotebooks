@@ -19,6 +19,12 @@
 
 ![VI](https://user-images.githubusercontent.com/46773720/223634760-fe691ec8-2b9c-4441-9193-f004b1de9638.gif)
 
-## (4) Modeling Japanese Inflation with a dynamic factor-structure in volatility
+## (4) "Sampling" Time-varying Sharpe-optimal Portfolio w/ Bayesian Multivariate GARCH
+- Goal: A framework to quantify the epistemic uncertainty of optimal portfolios
+- Approach: Mean-Variance & Bayesian BEKK (+ Time-varying latent return process)
+
+![model1](https://user-images.githubusercontent.com/46773720/224539761-dfe4c099-207e-4f70-81d9-67a6edbe69bf.png)
+
+## (5) Modeling Japanese Inflation with a dynamic factor-structure in volatility
 to be posted...
 
