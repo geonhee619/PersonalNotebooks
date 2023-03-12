@@ -30,7 +30,7 @@ using the sample analogue of $(\textbf{m},\textbf{S})$. Here, a generative model
 ```math
 \theta = (\textbf{m}, \textbf{S})' \sim p(\theta) \stackrel{\text{d}}{=} p(\textbf{m}) p(\textbf{S}),
 ```
-where $\textbf{t}_0$ is a hyperparemeter and $p(\textbf{S})$ is a positive semi-definite matrix-valued prior distribution.
+where $p(\textbf{S})$ is a positive semi-definite matrix-valued prior distribution.
 
 The goal is to inspect the posterior distribution of $\theta$ given $\textbf{Y}:=(\textbf{y}_1,...,\textbf{y}_T)$, that is
 ```math
