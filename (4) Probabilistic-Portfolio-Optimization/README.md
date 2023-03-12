@@ -29,11 +29,11 @@ using the sample analogue of $(\textbf{m},\textbf{S})$.
 
 - The approach here is to suppose a generative model with the following additional structure:
 ```math
-\theta = (\textbf{m}', \text{vec}(\textbf{S})')' \sim p(\theta) \stackrel{\text{d}}{=} p(\textbf{m}) p(\textbf{S}),
+\theta = (\textbf{m}', \text{vech}(\textbf{S})')' \sim p(\theta) \stackrel{\text{d}}{=} p(\textbf{m}) p(\textbf{S}),
 ```
 where $p(\textbf{S})$ is a prior distribution over positive semi-definite matrices.
 
-- The goal is to inspect the posterior quantitites over $\textbf{w}^*$ via the posterior distribution of $\theta$ given $\textbf{Y}:=(\textbf{y}_1,...,\textbf{y}_T)$, that is
+- The goal is to inspect the posterior quantitites over $\textbf{w}^*$ via the posterior distribution of $\theta$ given $\textbf{Y}:=(\textbf{y}_1,...,\textbf{y}_T)'$, that is
 ```math
 p(\theta \mid \textbf{Y}) \propto p(\textbf{Y} \mid \theta) p(\theta).
 ```
