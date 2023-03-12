@@ -40,7 +40,7 @@ as a means of inspecting the posterior distribution of the Sharpe-optimal portfo
 
 ![model1](https://user-images.githubusercontent.com/46773720/224541902-7f5205eb-9472-42f5-b1ee-415dadfa3378.png)
 
-### 2: Multivariate GARCH (BEKK)
+### 2: Multivariate GARCH (BEKK of Engel and Kroner, 1995)
 - Upon the previous generative model, the model of BEKK specifies the deterministic evolution of the conditional variance.
 - The generative model is
 ```math
@@ -51,7 +51,8 @@ as a means of inspecting the posterior distribution of the Sharpe-optimal portfo
 \end{align}
 ```
   - $\textbf{C}$ is a positive definite matrix.
-- With appropriate priors in hand, the time-varying sharpe-optimal portfolio is constructed from the MCMC output as follows.
+- With appropriate priors in hand, the time-varying sharpe-optimal portfolio is constructed from the MCMC output by solving the same optimization problem at each time period.
+- This is visualized as follows.
 
 ![model2](https://user-images.githubusercontent.com/46773720/224542127-7bb2ae04-e0d0-4648-b91a-327385f09780.gif)
 
@@ -74,3 +75,7 @@ as a means of inspecting the posterior distribution of the Sharpe-optimal portfo
 - A time-series visualization of "posterior Sharpe-optimal portfolios".
 
 ![model3_sample](https://user-images.githubusercontent.com/46773720/224542258-90dbb5f5-580f-4804-ad97-38e91ab39b1f.png)
+
+# References
+
+- Engle, R. F. and Kroner, K. F. (1995). "Multivariate Simultaneous Generalized Arch", Econometric Theory, 11(1), 122-150.
