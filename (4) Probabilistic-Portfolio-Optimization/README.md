@@ -42,7 +42,7 @@ p(\theta \mid \textbf{Y}) \propto p(\textbf{Y} \mid \theta) p(\theta).
 ```math
 (\textbf{w}^*)^{(r)} = \text{argmax}_{\textbf{w} \in W} ~ {\textbf{w}' \textbf{m}^{(r)} \over \sqrt{\textbf{w}' \textbf{S}^{(r)} \textbf{w}}}.
 ```
-- The $\textcolor{blue}{\text{efficient frontier --}}$ and the $\textcolor{red}{\text{Sharpe-optimal portfolio ●}}$ is vizualised below.
+- The $\textcolor{blue}{\text{efficient frontier --}}$ and the $\textcolor{red}{\text{Sharpe-optimal portfolio ●}}$ is visualized below.
 
 ![model1](https://user-images.githubusercontent.com/46773720/224541902-7f5205eb-9472-42f5-b1ee-415dadfa3378.png)
 
