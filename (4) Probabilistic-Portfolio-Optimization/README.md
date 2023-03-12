@@ -6,7 +6,7 @@
 ## Data
 - Daily returns of S&P500, N225, and FTSE100 from 2022-12-29 to 2023-03-09.
 
-# Models #1: IID Multivariate Gaussian
+## Model #1: IID Multivariate Gaussian
 - Consider the conventional "iid"-model which posits the DGP of returns as a purely i.i.d. process. That is, for some $T \in \mathbb{N}$,
 
 ```math
@@ -46,7 +46,7 @@ p(\theta \mid \textbf{Y}) \propto p(\textbf{Y} \mid \theta) p(\theta).
 
 ![model1](https://user-images.githubusercontent.com/46773720/224541902-7f5205eb-9472-42f5-b1ee-415dadfa3378.png)
 
-# Model #2: Multivariate GARCH (BEKK of Engel and Kroner, 1995)
+## Model #2: Multivariate GARCH (BEKK of Engel and Kroner, 1995)
 - Upon the previous generative model, the model of BEKK specifies the deterministic evolution of the conditional variance.
 - The generative model, for $t=1,...,T$, is
 ```math
@@ -66,7 +66,7 @@ and appropriate priors on $(\textbf{H}_1, \textbf{C}, \textbf{B}, \textbf{A})$. 
 
 ![model2](https://user-images.githubusercontent.com/46773720/224542127-7bb2ae04-e0d0-4648-b91a-327385f09780.gif)
 
-# Model #3: Multivariate GARCH (BEKK) w/ Time-varying Expected Returns
+## Model #3: Multivariate GARCH (BEKK) w/ Time-varying Expected Returns
 
 - Additionally posit that the expected returns are time-varying.
 - The generative model, for $t=1,...,T$, is
