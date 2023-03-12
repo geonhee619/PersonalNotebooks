@@ -92,9 +92,9 @@ and appropriate priors on $(\textbf{H}_1, \textbf{C}, \textbf{B}, \textbf{A})$. 
 
 ### Further Extensions
 - The expected-return dynamics need not be a Gaussian random-walk.
-- The same applies for the volatility dynamics.
+- The volatility dynamics need not be BEKK, although they are very convenient.
 - They need not be linear.
-- The optimization objective need not be the Sharpe-ratio, although they are intuitive and convenient.
+- The optimization objective need not be the Sharpe-ratio, although they are intuitive.
 - Innovations need not be Normal and symmetric.
 
 # References
