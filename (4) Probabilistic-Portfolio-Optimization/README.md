@@ -44,7 +44,7 @@ p(\theta \mid \textbf{Y}) \propto p(\textbf{Y} \mid \theta) p(\theta).
 ```
 - The $\textcolor{blue}{\text{efficient frontier --}}$ and the $\textcolor{red}{\text{Sharpe-optimal portfolio ●}}$ is visualized below.
 
-![model1](https://user-images.githubusercontent.com/46773720/224541902-7f5205eb-9472-42f5-b1ee-415dadfa3378.png)
+![model1](https://user-images.githubusercontent.com/46773720/224784836-05d717b6-1a71-4624-b985-b44f5b6781e1.png)
 
 ## Model #2: Multivariate GARCH (BEKK of Engel and Kroner, 1995)
 - Upon the previous generative model, the model of BEKK specifies the deterministic evolution of the conditional variance.
@@ -64,7 +64,7 @@ and appropriate priors on $(\textbf{H}_1, \textbf{C}, \textbf{B}, \textbf{A})$. 
 ```
 - This is visualized as follows.
 
-![model2](https://user-images.githubusercontent.com/46773720/224542127-7bb2ae04-e0d0-4648-b91a-327385f09780.gif)
+![model2](https://user-images.githubusercontent.com/46773720/224784881-c34dc000-ee48-4543-9d3c-c306989034e3.gif)
 
 ## Model #3: Multivariate GARCH (BEKK) w/ Time-varying Expected Returns
 
@@ -83,12 +83,11 @@ and appropriate priors on $(\textbf{H}_1, \textbf{C}, \textbf{B}, \textbf{A})$. 
 (\textbf{w}^*_t)^{(r)} = \text{argmax}_{\textbf{w} \in W} ~ {\textbf{w}' \textbf{m}_t^{(r)} \over \sqrt{\textbf{w}' \textbf{H}_t^{(r)} \textbf{w}}},
 \quad \text{for} \quad t=1,...,T.
 ```
-
-![model3_ef](https://user-images.githubusercontent.com/46773720/224542282-1784e82a-9f70-4a3e-ad32-24216266296b.gif)
+![model3_ef](https://user-images.githubusercontent.com/46773720/224784930-56eb1e73-c89e-4dbc-8395-2570530fb520.gif)
 
 - A time-series visualization of "posterior Sharpe-optimal portfolios".
 
-![model3_sample](https://user-images.githubusercontent.com/46773720/224542258-90dbb5f5-580f-4804-ad97-38e91ab39b1f.png)
+![model3_sample](https://user-images.githubusercontent.com/46773720/224784970-5e156007-98fb-459a-acaf-91919392e458.png)
 
 ### Further Extensions
 - The expected-return dynamics need not be a Gaussian random-walk.
