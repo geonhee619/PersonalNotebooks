@@ -87,7 +87,7 @@ and appropriate priors on $(\textbf{H}_1, \textbf{C}, \textbf{B}, \textbf{A})$. 
 
 - A time-series visualization of "posterior Sharpe-optimal portfolios".
 
-![model3_sample](https://user-images.githubusercontent.com/46773720/224784970-5e156007-98fb-459a-acaf-91919392e458.png)
+![model3_sample](https://user-images.githubusercontent.com/46773720/224785221-d97f4ecb-d6f7-4c2e-a0e4-c20b47297e22.png)
 
 ### Further Extensions
 - The expected-return dynamics need not be a Gaussian random-walk.
