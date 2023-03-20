@@ -25,7 +25,7 @@
 
 ![model1](https://user-images.githubusercontent.com/46773720/224539761-dfe4c099-207e-4f70-81d9-67a6edbe69bf.png)
 
-## (5) Modeling and Forecasting Probabilities of Recession w/ a Regime-switching model + Bayesian Neural Nets
+## (5) Modeling/Forecasting the Probability of Recession w/ a Regime-switching model + Bayesian Neural Net
 - Model: Multivariate Autoregressive 2-state Regime-switching model (on Industrial Production Total Index & Unemployment Rate) w/ nonlinear transition probabilities modeled via Bayesian Neural Nets.
 - Data: FRED-MD (very "basic" variables: Industrial Production Total Index, Unemployment Rate, CPI, Fed Funds Rate) + 30 Day Fed Funds Rate Futures.
 
