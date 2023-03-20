@@ -47,9 +47,9 @@ f_s = f_1 \circ \dots \circ f_{L-1} \circ f_L  : \mathbb{R}^{N-1} \rightarrow \m
 ```
 w/ appropriate intermediate dimensions. The activation function in $f_L$ maps to $\mathbb{R}^{N-1}$.
 
-This setting equates two notably novel and appealing features of the model:
-1. explicitly allowing for nonlinearities in the transition probability.
-2. the state variable process $(s_t)\_{t \in \mathbb{Z}}$ is Markovian but in a different sense; we used to have
+Notably novel and appealing features of the model are:
+1. nonlinearities in the transition probability (because the unconditional mean of $\textbf{z}\_t$ is directly modeled via BNNs).
+2. we used to have
 ```math
 \mathbb{P}(s_t = i \mid s_{t-1} = j, s_{t-2} = k, \textbf{x}_{t-1}) = \mathbb{P}(s_t = i \mid s_{t-1} = j) = p_{j \rightarrow i}
 ```
@@ -57,7 +57,7 @@ due to the specification $f\_s(O_{t-1}) = \textbf{g}(s\_{t-1})$, whereas now we 
 ```math
 \mathbb{P}(s_t = i \mid s_{t-1} = j, s_{t-2} = k, \textbf{x}_{t-1}) = \mathbb{P}(s_t = i \mid \textbf{x}_{t-1}),
 ```
-which additionally became a function of $\textbf{x}\_{t-1}$ (alterable), and the mapping rule is nonlinear (to be learnt from the observations). This is considerably more useful for the purpose for forecasting.
+which additionally became a function of $\textbf{x}\_{t-1}$ (alterable), and the mapping rule is nonlinear (to be learnt from the observations). This is more reasonable for the purpose for forecasting.
 
 ## In Play
 
@@ -108,3 +108,8 @@ s_t = \mathbb{I}\{z_t \geq 0\} + 1 \in S := \{1, 2\},
 - Minimal variations
 - MCMC is time consuming
 - Testing (NN arch., specifications, selection, VI performance, etc.)
+
+* References
+- Filardo, A. J. (1994). "Business-cycle phases and their transitional dynamics", Journal of Business & Economic Statistics, 12(3), 299–308.
+- Kim, Y. and Kang, K. (2022). "Bayesian Inference of Multivariate Regression Models with Endogenous Markov Regime-Switching Parameters", Journal of Financial Econometrics, 20(3), 391–436.
+- McCracken, M. W. and Ng, S. (2015). "FRED-MD: A Monthly Database for Macroeconomic Research", Working Papers 2015-12, Federal Reserve Bank of St. Louis.
