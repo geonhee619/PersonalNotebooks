@@ -105,7 +105,6 @@ s_t = \mathbb{I}\{z_t \geq 0\} + 1 \in S := \{1, 2\},
 ![latest](https://user-images.githubusercontent.com/46773720/226314192-4ca664a2-abc6-4561-a946-657312589e22.png)
 
 # Concerns
-- Want more variations
+- Minimal variations
 - MCMC is time consuming
-- VI was not performant
-- Testing (NN arch., specifications, selection, etc.)
+- Testing (NN arch., specifications, selection, VI performance, etc.)
