@@ -33,8 +33,9 @@ In other words, we are considering a joint distribution, at $t$, of the measurem
 (Note the obvious that $\textbf{S}\_z \in \mathbb{R}^{(N-1) \times (N-1)}$ is positive definite while $\textbf{R} \in \mathbb{R}^{(N-1) \times j}$ is necessarily not.)
 
 The unobserved quantitites of interest are the
-- parameters $(\textbf{m}(s), \textbf{B}(s), \text{vech}(\textbf{L}(s))$ for $s \in S$ and the
-- discrete latent process $(s_t)_{t\in\mathbb{Z}}$.
+- parameters $(\textbf{m}(s), \textbf{B}(s), \text{vech}(\textbf{L}(s))$ for $s \in S$;
+- discrete latent process $(s_t)_{t\in\mathbb{Z}}$;
+- variance-covariance of $(\textbf{z}\_t, \textbf{e}\_t)$.
 
 ## An Extension
 
@@ -86,5 +87,5 @@ s_t = \mathbb{I}\{z_t \geq 0\} + 1 \in S := \{1, 2\},
 
 - Take $j \in S$. By construction,
 ```math
-\mathbb{P}(s_{t} = 1 \mid s_{t-1} = j, \textbf{x}_{t-1}) = \mathbb{P}(z_t < 0 \mid \textbf{x}_{t-1}) = F_{\color{yellow}{z_t}}
+\mathbb{P}(s_{t} = 1 \mid s_{t-1} = j, \textbf{x}_{t-1}) = \mathbb{P}(z_t < 0 \mid \textbf{x}_{t-1}) = F_{z_t}(0 \mid \text{FFNN}(\textbf{x}_{t-1}), \textbf{S}_z).
 ```
