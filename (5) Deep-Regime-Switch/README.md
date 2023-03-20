@@ -85,7 +85,27 @@ s_t = \mathbb{I}\{z_t \geq 0\} + 1 \in S := \{1, 2\},
 \textbf{x}_t = \begin{bmatrix} \text{CPI}_t \\ \text{\color{green}{INDUSTRIAL PRODUCTION INDEX}}_t \\ \text{FED FUNDS RATE}_t \\ \text{FFR 30D FUTURES}_t \\ \text{\color{green}{UNEMPLOYMENT RATE}}_t \end{bmatrix}.
 ```
 
+  - Definition: A state of recession is $s_t \in S$ such that $E_r[m_1^{(r)}(s_t)] \leq E_r[m_1^{(r)}(s_t')]$ and $E_r[m_2^{(r)}(s_t)] \geq E_r[m_2^{(r)}(s_t')]$ for all $s_t' \in S$. Here, recession is $s_t=1$.
+
+![INDPRO](https://user-images.githubusercontent.com/46773720/226311669-bce1a292-b57c-4361-8784-cb018ff7fcc5.png)
+
+![UNEMP](https://user-images.githubusercontent.com/46773720/226311689-08a760eb-4718-4e88-867f-68235db54c5f.png)
+
 - Take $j \in S$. By construction,
 ```math
 \mathbb{P}(s_{t} = 1 \mid s_{t-1} = j, \textbf{x}_{t-1}) = \mathbb{P}(z_t < 0 \mid \textbf{x}_{t-1}) = F_{z_t}(0 \mid \text{FFNN}(\textbf{x}_{t-1}), \textbf{S}_z).
 ```
+
+## A Time-series Visualization of the "Deep" Recession Probability
+
+![ts-min](https://user-images.githubusercontent.com/46773720/226314024-0a5f16c7-7fa0-498a-a71e-ee43704027a4.gif)
+
+## The Latest
+
+![latest](https://user-images.githubusercontent.com/46773720/226314192-4ca664a2-abc6-4561-a946-657312589e22.png)
+
+# Concerns
+- Testing
+- Want more variations
+- MCMC is time consuming
+- VI was not performant
