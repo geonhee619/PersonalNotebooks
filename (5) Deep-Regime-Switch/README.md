@@ -109,7 +109,7 @@ s_t = \mathbb{I}\{z_t \geq 0\} + 1 \in S := \{1, 2\},
 - MCMC is time consuming
 - Testing (NN arch., specifications, selection, VI performance, etc.)
 
-* References
+# References
 - Filardo, A. J. (1994). "Business-cycle phases and their transitional dynamics", Journal of Business & Economic Statistics, 12(3), 299–308.
 - Kim, Y. and Kang, K. (2022). "Bayesian Inference of Multivariate Regression Models with Endogenous Markov Regime-Switching Parameters", Journal of Financial Econometrics, 20(3), 391–436.
 - McCracken, M. W. and Ng, S. (2015). "FRED-MD: A Monthly Database for Macroeconomic Research", Working Papers 2015-12, Federal Reserve Bank of St. Louis.
