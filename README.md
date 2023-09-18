@@ -1,4 +1,4 @@
-# A Compilation of Personal Notebooks
+# A Compilation of Personal Scribbles in Stats
 
 ## (1) Modeling the Japanese Yield Curve
  - Model: Dynamic Nelson-Siegel + Stochastic Volatility
