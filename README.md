@@ -31,6 +31,7 @@
 
 ![ts2](https://user-images.githubusercontent.com/46773720/226235458-4fa70a1f-d894-4dde-b418-b171f9254f90.gif)
 
-## (6) Modeling Japanese Inflation with a dynamic factor-structure in volatility
-to be posted...
+## (6) State-space model based clustering of Time-series data
+- Model: A stochastic volatility model with Dirichlet Process mixture in-mean.
 
+![download](https://github.com/geonhee619/PersonalNotebooks/assets/46773720/2843bcf5-7d81-4997-8031-584f59c44016)
